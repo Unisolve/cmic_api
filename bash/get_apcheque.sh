@@ -1,7 +1,7 @@
 #!/bin/bash
-# name:    get_apvendor.sh
-# process: Retrieve a list of 3 vendors
-#          GET /ap-rest-api/rest/1/apvendor?limit=3&offset=0
+# name:    get_apcheque.sh
+# process: Retrieve a list of 3 cheques
+#          GET /ap-rest-api/rest/1/apcheque?limit=3&offset=0
 
 #
 # Load configuration
@@ -20,5 +20,5 @@ fi
 #
 
 curl -u "${CMIC_USERNAME}:${CMIC_PASSWORD}" \
-  --url "${CMIC_BASE_URL}/ap-rest-api/rest/1/apvendor?limit=3&offset=0" \
+  --url "${CMIC_BASE_URL}/ap-rest-api/rest/1/apcheque?limit=3&offset=0" \
   --header "accept: ${CMIC_ACCEPT_HEADER}"
