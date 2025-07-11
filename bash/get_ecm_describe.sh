@@ -2,9 +2,14 @@
 # name:    get_ecm_describe.sh
 # process: Describe all ecm endpoints
 #          GET /ecm-rest-api/rest/v1/describe
-# note:    Currently fails for me with:
+#
+# note:    The "/rest/" endpoint: GET /ecm-rest-api/rest/v1/describe
+#          currently fails for me with:
 #          oracle.security.idm.ObjectNotFoundException: please specify the object key from obj key 1 
 #          to obj key 5 in finder
+#
+# note:    The "/jersey/" endpoint GET /ecm-rest-api/jersey/v1/describe currently fails for me with:
+#          Not Found
 
 
 #
