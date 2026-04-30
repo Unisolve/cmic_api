@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMiC Test Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <header class="header">
+      <div class="header-left">
+        <div class="logo-mark"></div>
+        <div class="header-titles">
+          <span class="header-label">CMiC</span>
+          <h1 class="header-title">Test Dashboard</h1>
+        </div>
+      </div>
+      <div class="header-right">
+        <span class="mode-badge" id="modeBadge">—</span>
+        <span class="header-time" id="headerTime"></span>
+      </div>
+    </header>
+
+    <div class="main">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <span class="sidebar-label">TEST SUITE</span>
+          <button class="refresh-btn" id="refreshBtn" title="Refresh test list">↺</button>
+        </div>
+        <div class="test-list" id="testList">
+          <div class="loading-state">
+            <span class="loading-dot"></span>
+            <span class="loading-dot"></span>
+            <span class="loading-dot"></span>
+          </div>
+        </div>
+      </aside>
+
+      <section class="panel">
+        <div class="panel-empty" id="panelEmpty">
+          <div class="empty-icon">▶</div>
+          <p>Select a test to run</p>
+        </div>
+
+        <div class="panel-active hidden" id="panelActive">
+          <div class="panel-header">
+            <div class="panel-meta">
+              <span class="panel-project" id="panelProject"></span>
+              <h2 class="panel-title" id="panelTitle"></h2>
+              <span class="panel-file" id="panelFile"></span>
+            </div>
+            <div class="panel-controls">
+              <div class="status-indicator" id="statusIndicator">
+                <span class="status-dot" id="statusDot"></span>
+                <span class="status-text" id="statusText">Ready</span>
+              </div>
+              <button class="run-btn" id="runBtn">
+                <span class="run-btn-icon">▶</span>
+                <span class="run-btn-label">Run Test</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="output-area">
+            <div class="output-toolbar">
+              <span class="output-label">OUTPUT</span>
+              <button class="clear-btn" id="clearBtn">Clear</button>
+            </div>
+            <pre class="output-pre" id="outputPre"><span class="output-placeholder">Test output will appear here...</span></pre>
+          </div>
+
+          <div class="result-bar hidden" id="resultBar">
+            <span class="result-icon" id="resultIcon"></span>
+            <span class="result-text" id="resultText"></span>
+            <span class="result-duration" id="resultDuration"></span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
