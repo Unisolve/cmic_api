@@ -1,0 +1,25 @@
+#!/bin/bash
+# name:    retrieve-a-specific-user-extension-field-definition-by-vuuid.sh
+# process: Retrieve a Specific User Extension Field Definition By VUUID
+#          GET /sys-rest-api/rest/1/sdobjusrextdef?limit=3&offset=0
+# docs:    https://developers.cmicglobal.com/apidocs/retrieve-a-specific-user-extension-field-definition-by-vuuid
+
+#
+# Load configuration
+#
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+source "${SCRIPT_DIR}/../config"
+
+if [[ -z "$CMIC_USERNAME" || -z "$CMIC_PASSWORD" ]]; then
+    echo "Error: Configuration not loaded. Please copy config.template to config and set your credentials."
+    exit 1
+fi
+
+#
+# Run endpoint
+#
+
+curl -u "${CMIC_USERNAME}:${CMIC_PASSWORD}" \
+  --url "${CMIC_BASE_URL}/sys-rest-api/rest/1/sdobjusrextdef?limit=3&offset=0" \
+  --header "accept: ${CMIC_ACCEPT_HEADER}"
