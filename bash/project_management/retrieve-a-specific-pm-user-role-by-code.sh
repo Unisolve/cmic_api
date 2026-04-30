@@ -20,6 +20,6 @@ fi
 # Run endpoint
 #
 
-curl -u "${CMIC_USERNAME}:${CMIC_PASSWORD}" \
+curl -sS -u "${CMIC_USERNAME}:${CMIC_PASSWORD}" \
   --url "${CMIC_BASE_URL}/pm-rest-api/rest/1/pmuserrole?limit=3&offset=0" \
   --header "accept: ${CMIC_ACCEPT_HEADER}"
