@@ -1,0 +1,21 @@
+{
+  "name": "cmic-test-dashboard",
+  "version": "1.0.0",
+  "description": "CMiC Playwright tests + local web dashboard",
+  "type": "module",
+  "scripts": {
+    "start": "node dashboard/server.js",
+    "mock": "DASHBOARD_MODE=mock node dashboard/server.js",
+    "mock:win": "set DASHBOARD_MODE=mock && node dashboard/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.3"
+  }
+}
