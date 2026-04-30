@@ -1,0 +1,2522 @@
+[
+  {
+    "slug": "retrieve-em-truck-details-by-code",
+    "title": "Retrieve EM Truck Details By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emeqprate",
+    "file": "asset_management/get_emeqprate.sh"
+  },
+  {
+    "slug": "retrieve-eqp-com-tran-by-code",
+    "title": "Retrieve Eqp Com Tran By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emeqpcomtran",
+    "file": "asset_management/retrieve-eqp-com-tran-by-code.sh"
+  },
+  {
+    "slug": "retrieve-equipment-actual-locations-by-code",
+    "title": "Retrieve Equipment Actual Locations By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emactloc",
+    "file": "asset_management/retrieve-equipment-actual-locations-by-code.sh"
+  },
+  {
+    "slug": "retrieve-equipment-classes-by-code",
+    "title": "Retrieve Equipment Classes By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emeqpclass",
+    "file": "asset_management/retrieve-equipment-classes-by-code.sh"
+  },
+  {
+    "slug": "retrieve-equipment-home-locations-by-code",
+    "title": "Retrieve Equipment Home Locations By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emhomeloc",
+    "file": "asset_management/retrieve-equipment-home-locations-by-code.sh"
+  },
+  {
+    "slug": "retrieve-equipment-rates-by-code",
+    "title": "Retrieve Equipment Rates by Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emeqprate",
+    "file": "asset_management/retrieve-equipment-rates-by-code.sh"
+  },
+  {
+    "slug": "retrieve-equipment-rates-by-row-id",
+    "title": "Retrieve Equipment Rates by Row ID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emeqprates",
+    "file": "asset_management/retrieve-equipment-rates-by-row-id.sh"
+  },
+  {
+    "slug": "retrieve-equipment-timesheet-transactions-by-code",
+    "title": "Retrieve Equipment Timesheet Transactions by Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emtrantiment",
+    "file": "asset_management/retrieve-equipment-timesheet-transactions-by-code.sh"
+  },
+  {
+    "slug": "retrieve-equipment-transaction-location-transfers-by-code",
+    "title": "Retrieve Equipment Transaction Location Transfers By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emtranactloc",
+    "file": "asset_management/retrieve-equipment-transaction-location-transfers-by-code.sh"
+  },
+  {
+    "slug": "retrieve-equipment-by-code",
+    "title": "Retrieve Equipment by Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emeqprates",
+    "file": "asset_management/retrieve-equipment-by-code.sh"
+  },
+  {
+    "slug": "retrieve-posted-equipment-transaction-location-transfers-by-equipment-code",
+    "title": "Retrieve Posted Equipment Transaction Location Transfers By Equipment Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emtranpostactloc",
+    "file": "asset_management/retrieve-posted-equipment-transaction-location-transfers-by-equipment-code.sh"
+  },
+  {
+    "slug": "retrieve-posted-equipment-transaction-location-transfers-by-new-location-code",
+    "title": "Retrieve Posted Equipment Transaction Location Transfers By New Location Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emtranpostactloc",
+    "file": "asset_management/retrieve-posted-equipment-transaction-location-transfers-by-new-location-code.sh"
+  },
+  {
+    "slug": "retrieve-unique-truck-detail-by-vuuid",
+    "title": "Retrieve Unique Truck Detail by VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emtruckdet",
+    "file": "asset_management/retrieve-unique-truck-detail-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-unique-by-vuuid",
+    "title": "Retrieve Unique by VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emeqpcomtran",
+    "file": "asset_management/retrieve-unique-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-equipment-class-by-class-code",
+    "title": "Retrieve a Specific Equipment Class By Class Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emeqpclass",
+    "file": "asset_management/retrieve-a-specific-equipment-class-by-class-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-equipment-location-transfer-by-vuuid",
+    "title": "Retrieve a Specific Equipment Location Transfer By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emtranactloc",
+    "file": "asset_management/retrieve-a-specific-equipment-location-transfer-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-equipment-by-vuuid",
+    "title": "Retrieve a Specific Equipment by VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emequipment",
+    "file": "asset_management/retrieve-a-specific-equipment-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-equipment-by-vuuid-1",
+    "title": "Retrieve a Specific Equipment by VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emtrantiment",
+    "file": "asset_management/retrieve-a-specific-equipment-by-vuuid-1.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-home-location-code-by-location-code",
+    "title": "Retrieve a Specific Home Location Code By Location Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emhomeloc",
+    "file": "asset_management/retrieve-a-specific-home-location-code-by-location-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-posted-equipment-location-transfer-by-vuuid",
+    "title": "Retrieve a Specific Posted Equipment Location Transfer By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emtranpostactloc",
+    "file": "asset_management/retrieve-a-specific-posted-equipment-location-transfer-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-unique-equipment-actual-location-by-location-id",
+    "title": "Retrieve a Unique Equipment Actual Location By Location ID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Equipment",
+    "path": "/em-rest-api/rest/1/emactloc",
+    "file": "asset_management/retrieve-a-unique-equipment-actual-location-by-location-id.sh"
+  },
+  {
+    "slug": "retrieve-fixed-asset-by-code",
+    "title": "Retrieve Fixed Asset by Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Fixed Assets",
+    "path": "/fa-rest-api/rest/1/faasset",
+    "file": "asset_management/retrieve-fixed-asset-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-fixed-asset-by-vuuid",
+    "title": "Retrieve a Specific Fixed Asset by VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Fixed Assets",
+    "path": "/fa-rest-api/rest/1/faasset",
+    "file": "asset_management/retrieve-a-specific-fixed-asset-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-inventory-classes-by-code",
+    "title": "Retrieve Inventory Classes By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/ciclass",
+    "file": "asset_management/retrieve-inventory-classes-by-code.sh"
+  },
+  {
+    "slug": "retrieve-inventory-issue-by-code",
+    "title": "Retrieve Inventory Issue By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/ciinventoryissue",
+    "file": "asset_management/retrieve-inventory-issue-by-code.sh"
+  },
+  {
+    "slug": "retrieve-inventory-item-detail-by-code",
+    "title": "Retrieve Inventory Item Detail By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/ciitemdetail",
+    "file": "asset_management/retrieve-inventory-item-detail-by-code.sh"
+  },
+  {
+    "slug": "retrieve-inventory-item-location-logs-by-code",
+    "title": "Retrieve Inventory Item Location Logs By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/ciitemloclog",
+    "file": "asset_management/retrieve-inventory-item-location-logs-by-code.sh"
+  },
+  {
+    "slug": "retrieve-inventory-items-by-code",
+    "title": "Retrieve Inventory Items By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/ciitem",
+    "file": "asset_management/retrieve-inventory-items-by-code.sh"
+  },
+  {
+    "slug": "retrieve-inventory-items-by-code-1",
+    "title": "Retrieve Inventory Items By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/ciitem",
+    "file": "asset_management/retrieve-inventory-items-by-code-1.sh"
+  },
+  {
+    "slug": "retrieve-inventory-locations-by-code",
+    "title": "Retrieve Inventory Locations By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/cilocation",
+    "file": "asset_management/retrieve-inventory-locations-by-code.sh"
+  },
+  {
+    "slug": "retrieve-inventory-posted-transactions-by-code",
+    "title": "Retrieve Inventory Posted Transactions By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/citranposted",
+    "file": "asset_management/retrieve-inventory-posted-transactions-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-inventory-class-by-vuuid",
+    "title": "Retrieve a Specific Inventory Class By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/ciclass",
+    "file": "asset_management/retrieve-a-specific-inventory-class-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-inventory-issue-by-vuuid",
+    "title": "Retrieve a Specific Inventory Issue By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/ciinventoryissue",
+    "file": "asset_management/retrieve-a-specific-inventory-issue-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-inventory-item-by-vuuid",
+    "title": "Retrieve a Specific Inventory Item By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/2/ciitem",
+    "file": "asset_management/retrieve-a-specific-inventory-item-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-inventory-item-by-vuuid-1",
+    "title": "Retrieve a Specific Inventory Item By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/2/ciitem",
+    "file": "asset_management/retrieve-a-specific-inventory-item-by-vuuid-1.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-inventory-item-detail-by-vuuid",
+    "title": "Retrieve a Specific Inventory Item Detail By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/ciitemdetail",
+    "file": "asset_management/retrieve-a-specific-inventory-item-detail-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-inventory-item-header",
+    "title": "Retrieve a Specific Inventory Item Header",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/ciitemhdr",
+    "file": "asset_management/retrieve-a-specific-inventory-item-header.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-inventory-location-by-vuuid-1",
+    "title": "Retrieve a Specific Inventory Location By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/cilocation",
+    "file": "asset_management/retrieve-a-specific-inventory-location-by-vuuid-1.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-inventory-posted-transaction-by-vuuid",
+    "title": "Retrieve a Specific Inventory Posted Transaction By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Inventory",
+    "path": "/ci-rest-api/rest/1/citranposted",
+    "file": "asset_management/retrieve-a-specific-inventory-posted-transaction-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-non-stock-item-by-vuuid",
+    "title": "Retrieve Non-Stock Item By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/poNonStockItem",
+    "file": "asset_management/retrieve-non-stock-item-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-non-stock-items-by-company-code-item-code-and-cost-code",
+    "title": "Retrieve Non-Stock Items By Company Code, Item Code and Cost Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/poNonStockItem",
+    "file": "asset_management/retrieve-non-stock-items-by-company-code-item-code-and-cost-code.sh"
+  },
+  {
+    "slug": "retrieve-posted-purchase-order-receipts-by-company-code-and-vendor-code",
+    "title": "Retrieve Posted Purchase Order Receipts By Company Code and Vendor Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/postedporeceipt",
+    "file": "asset_management/retrieve-posted-purchase-order-receipts-by-company-code-and-vendor-code.sh"
+  },
+  {
+    "slug": "retrieve-posted-purchase-order-receipts-by-vuuid",
+    "title": "Retrieve Posted Purchase Order Receipts By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/2/postedporeceipt",
+    "file": "asset_management/retrieve-posted-purchase-order-receipts-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-purchase-order-details-by-code",
+    "title": "Retrieve Purchase Order Details By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/podetail",
+    "file": "asset_management/retrieve-purchase-order-details-by-code.sh"
+  },
+  {
+    "slug": "retrieve-purchase-order-headers-by-code",
+    "title": "Retrieve Purchase Order Headers By Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/pomaster",
+    "file": "asset_management/retrieve-purchase-order-headers-by-code.sh"
+  },
+  {
+    "slug": "retrieve-purchase-order-roles-for-user-by-company-code-and-user-id",
+    "title": "Retrieve Purchase Order Roles for User By Company Code and User ID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/poRoles",
+    "file": "asset_management/retrieve-purchase-order-roles-for-user-by-company-code-and-user-id.sh"
+  },
+  {
+    "slug": "retrieve-purchase-order-roles-for-user-by-vuuid",
+    "title": "Retrieve Purchase Order Roles for User by VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/poRoles",
+    "file": "asset_management/retrieve-purchase-order-roles-for-user-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-unposted-purchase-order-receipts-by-company-code-and-vendor-code",
+    "title": "Retrieve Unposted Purchase Order Receipts By Company Code and Vendor Code",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/unpostedporeceipt",
+    "file": "asset_management/retrieve-unposted-purchase-order-receipts-by-company-code-and-vendor-code.sh"
+  },
+  {
+    "slug": "retrieve-unposted-purchase-order-receipts-by-vuuid",
+    "title": "Retrieve Unposted Purchase Order Receipts By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/2/unpostedporeceipt",
+    "file": "asset_management/retrieve-unposted-purchase-order-receipts-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-user-assigned-with-tracking-code-by-company-code-tracking-code-and-user-id",
+    "title": "Retrieve User Assigned With Tracking Code By Company Code, Tracking Code and User ID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/poUserIdCrossRef",
+    "file": "asset_management/retrieve-user-assigned-with-tracking-code-by-company-code-tracking-code-and-user-id.sh"
+  },
+  {
+    "slug": "retrieve-user-assigned-with-tracking-code-by-vuuid",
+    "title": "Retrieve User Assigned With Tracking Code By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/poUserIdCrossRef",
+    "file": "asset_management/retrieve-user-assigned-with-tracking-code-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-purchase-order-header-by-vuuid",
+    "title": "Retrieve a Specific Purchase Order Header By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/pomaster",
+    "file": "asset_management/retrieve-a-specific-purchase-order-header-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-purchase-order-detail-by-vuuid",
+    "title": "Retrieve a specific Purchase Order Detail By VUUID",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/podetail",
+    "file": "asset_management/retrieve-a-specific-purchase-order-detail-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-all-purchase-order-headers",
+    "title": "Retrieve all Purchase Order Headers",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Purchase Order",
+    "path": "/po-rest-api/rest/1/pomaster",
+    "file": "asset_management/retrieve-all-purchase-order-headers.sh"
+  },
+  {
+    "slug": "retrieve-requisition",
+    "title": "Retrieve Requisition",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Requisition",
+    "path": "/po-rest-api/rest/1/porequisition",
+    "file": "asset_management/retrieve-requisition.sh"
+  },
+  {
+    "slug": "retrieve-all-requisition-detail-lines",
+    "title": "Retrieve all Requisition Detail Lines",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Requisition",
+    "path": "/po-rest-api/rest/1/porequisitiondet",
+    "file": "asset_management/retrieve-all-requisition-detail-lines.sh"
+  },
+  {
+    "slug": "retrieve-all-requisition-headers",
+    "title": "Retrieve all Requisition headers",
+    "module": "Asset Management",
+    "module_dir": "asset_management",
+    "submodule": "Requisition",
+    "path": "/po-rest-api/rest/1/porequisition",
+    "file": "asset_management/retrieve-all-requisition-headers.sh"
+  },
+  {
+    "slug": "retrieve-sd-object-audit-current-states-by-code",
+    "title": "Retrieve SD Object Audit Current States By Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Audit Status Log by Object",
+    "path": "/sys-rest-api/rest/1/sdobjectauditcurrstat",
+    "file": "core_system/retrieve-sd-object-audit-current-states-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-sd-object-audit-current-state-by-vuuid",
+    "title": "Retrieve a Specific SD Object Audit Current State By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Audit Status Log by Object",
+    "path": "/sys-rest-api/rest/1/sdobjectauditcurrstat",
+    "file": "core_system/retrieve-a-specific-sd-object-audit-current-state-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-ba-banks-by-code",
+    "title": "Retrieve BA Banks By Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Bank",
+    "path": "/sys-rest-api/rest/1/babank",
+    "file": "core_system/retrieve-ba-banks-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ba-bank",
+    "title": "Retrieve a Specific BA Bank",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Bank",
+    "path": "/sys-rest-api/rest/1/babank",
+    "file": "core_system/retrieve-a-specific-ba-bank.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-bp-address-by-vuuid",
+    "title": "Retrieve A Specific BP Address By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Business Partner Addresses",
+    "path": "/sys-rest-api/rest/1/bpaddresses",
+    "file": "core_system/retrieve-a-specific-bp-address-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-bp-address-by-code",
+    "title": "Retrieve BP Address By Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Business Partner Addresses",
+    "path": "/sys-rest-api/rest/1/bpaddresses",
+    "file": "core_system/retrieve-bp-address-by-code.sh"
+  },
+  {
+    "slug": "retrieve-specific-business-partners-by-code",
+    "title": "Retrieve Specific Business Partners by Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Business Partners",
+    "path": "/sys-rest-api/rest/1/businesspartner",
+    "file": "core_system/retrieve-specific-business-partners-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-business-partner",
+    "title": "Retrieve a specific  Business Partner",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Business Partners",
+    "path": "/sys-rest-api/rest/1/businesspartner",
+    "file": "core_system/retrieve-a-specific-business-partner.sh"
+  },
+  {
+    "slug": "retrieve-company-access-by-company-code-and-user-id",
+    "title": "Retrieve Company Access By Company Code and User ID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Company Access",
+    "path": "/sys-rest-api/rest/1/sdcompanyaccess",
+    "file": "core_system/retrieve-company-access-by-company-code-and-user-id.sh"
+  },
+  {
+    "slug": "retrieve-company-access-by-vuuid",
+    "title": "Retrieve Company Access By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Company Access",
+    "path": "/sys-rest-api/rest/1/sdcompanyaccess",
+    "file": "core_system/retrieve-company-access-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-ba-currencies-by-code",
+    "title": "Retrieve BA Currencies by Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Currency",
+    "path": "/sys-rest-api/rest/1/bacurrency",
+    "file": "core_system/retrieve-ba-currencies-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ba-currency-by-currency-code",
+    "title": "Retrieve a Specific BA Currency By Currency Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Currency",
+    "path": "/sys-rest-api/rest/1/bacurrency",
+    "file": "core_system/retrieve-a-specific-ba-currency-by-currency-code.sh"
+  },
+  {
+    "slug": "retrieve-documents-by-object",
+    "title": "Retrieve Documents by Object",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Documents by Object",
+    "path": "/sys-rest-api/rest/1/sysrelateddocquery",
+    "file": "core_system/retrieve-documents-by-object.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-document-by-vuuid",
+    "title": "Retrieve a Specific Document By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Documents by Object",
+    "path": "/sys-rest-api/rest/1/sysrelateddocquery",
+    "file": "core_system/retrieve-a-specific-document-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-ba-exchange-rates-by-code",
+    "title": "Retrieve BA Exchange Rates by Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Exchange Rates",
+    "path": "/sys-rest-api/rest/1/exchangerate",
+    "file": "core_system/retrieve-ba-exchange-rates-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ba-exchange-rate-by-vuuid",
+    "title": "Retrieve a Specific BA Exchange Rate By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Exchange Rates",
+    "path": "/sys-rest-api/rest/1/exchangerate",
+    "file": "core_system/retrieve-a-specific-ba-exchange-rate-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-user-defined-classifier-query-by-object-attributes",
+    "title": "Retrieve User Defined Classifier Query By Object Attributes",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Field User Defined Classifiers",
+    "path": "/sys-rest-api/rest/1/userdefinedclassifierquery",
+    "file": "core_system/retrieve-user-defined-classifier-query-by-object-attributes.sh"
+  },
+  {
+    "slug": "retrieve-gt-texts-by-code",
+    "title": "Retrieve GT Texts By Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Global  Table Text Codes",
+    "path": "/sys-rest-api/rest/1/gttext",
+    "file": "core_system/retrieve-gt-texts-by-code.sh"
+  },
+  {
+    "slug": "retrieve-region-lists-by-code",
+    "title": "Retrieve Region Lists By Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Global Table  Regions",
+    "path": "/sys-rest-api/rest/1/gtregion",
+    "file": "core_system/retrieve-region-lists-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-region-by-vuuid",
+    "title": "Retrieve a Specific Region By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Global Table  Regions",
+    "path": "/sys-rest-api/rest/1/gtregion",
+    "file": "core_system/retrieve-a-specific-region-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-job-assigned-to-security-groups",
+    "title": "Retrieve Job Assigned to Security Groups",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Job/Project Security",
+    "path": "/sys-rest-api/rest/1/jcjobsecgrpjob",
+    "file": "core_system/retrieve-job-assigned-to-security-groups.sh"
+  },
+  {
+    "slug": "retrieve-project-assigned-to-security-groups",
+    "title": "Retrieve Project Assigned to Security Groups",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Job/Project Security",
+    "path": "/sys-rest-api/rest/1/jcjobsecgrpproj",
+    "file": "core_system/retrieve-project-assigned-to-security-groups.sh"
+  },
+  {
+    "slug": "retrieve-users-assigned-to-job-security-groups",
+    "title": "Retrieve Users Assigned to Job Security Groups",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Job/Project Security",
+    "path": "/sys-rest-api/rest/1/jcjobsecgrpuser",
+    "file": "core_system/retrieve-users-assigned-to-job-security-groups.sh"
+  },
+  {
+    "slug": "retrieve-licensed-users",
+    "title": "Retrieve Licensed Users",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Licensed Users",
+    "path": "/sys-rest-api/rest/1/syscontactpool",
+    "file": "core_system/retrieve-licensed-users.sh"
+  },
+  {
+    "slug": "retrieve-security-groups-by-vuuid",
+    "title": "Retrieve Security Groups By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Security Groups",
+    "path": "/sys-rest-api/rest/1/jcjobsecgrp",
+    "file": "core_system/retrieve-security-groups-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-contacts-by-codes",
+    "title": "Retrieve Contacts By Codes",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "System Contact",
+    "path": "/sys-rest-api/rest/1/syscontact",
+    "file": "core_system/retrieve-contacts-by-codes.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-contact-by-vuuid",
+    "title": "Retrieve a Specific Contact By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "System Contact",
+    "path": "/sys-rest-api/rest/1/syscontact",
+    "file": "core_system/retrieve-a-specific-contact-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-term-list-by-code",
+    "title": "Retrieve Term List By Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Terms",
+    "path": "/sys-rest-api/rest/1/gtregion",
+    "file": "core_system/retrieve-term-list-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-term-by-vuuid",
+    "title": "Retrieve a Specific Term By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Terms",
+    "path": "/sys-rest-api/rest/1/term",
+    "file": "core_system/retrieve-a-specific-term-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-user-defined-classifiers-by-code",
+    "title": "Retrieve User Defined Classifiers By Date",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "User Defined Classifiers by Object",
+    "path": "/sys-rest-api/rest/1/userdefinedclassifier",
+    "file": "core_system/retrieve-user-defined-classifiers-by-code.sh"
+  },
+  {
+    "slug": "retrieve-user-defined-classifiers-by-date",
+    "title": "Retrieve User Defined Classifiers By Date",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "User Defined Classifiers by Object",
+    "path": "/sys-rest-api/rest/1/userdefinedclassifier",
+    "file": "core_system/retrieve-user-defined-classifiers-by-date.sh"
+  },
+  {
+    "slug": "retrieve-user-extension-fields-definitions-by-code",
+    "title": "Retrieve User Extension Fields Definitions By Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "User Extension Definitions by Object",
+    "path": "/sys-rest-api/rest/1/sdobjusrextdef",
+    "file": "core_system/retrieve-user-extension-fields-definitions-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-user-extension-field-definition-by-vuuid",
+    "title": "Retrieve a Specific User Extension Field Definition By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "User Extension Definitions by Object",
+    "path": "/sys-rest-api/rest/1/sdobjusrextdef",
+    "file": "core_system/retrieve-a-specific-user-extension-field-definition-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-user-extension-field-value-by-object",
+    "title": "Retrieve User Extension Field Value By Object",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "User Extension Values by Object",
+    "path": "/sys-rest-api/rest/1/sdobjusrextvalue",
+    "file": "core_system/retrieve-user-extension-field-value-by-object.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-user-extension-field-value-by-vuuid",
+    "title": "Retrieve a Specific User Extension Field Value By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "User Extension Values by Object",
+    "path": "/sys-rest-api/rest/1/sdobjusrextvalue",
+    "file": "core_system/retrieve-a-specific-user-extension-field-value-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-specific-valid-field-data-by-vuuid",
+    "title": "Retrieve Specific Valid Field Data By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "User Extention Field Data Value",
+    "path": "/sys-rest-api/rest/1/uevalidfielddata",
+    "file": "core_system/retrieve-specific-valid-field-data-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-valid-field-data-list-by-code",
+    "title": "Retrieve Valid Field Data List By Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "User Extention Field Data Value",
+    "path": "/sys-rest-api/rest/1/uevalidfielddata",
+    "file": "core_system/retrieve-valid-field-data-list-by-code.sh"
+  },
+  {
+    "slug": "retrieve-user-roles-by-user-id-role-code-and-created-date",
+    "title": "Retrieve User Roles By User ID, Role Code and Created Date",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "User Roles",
+    "path": "/sys-rest-api/rest/1/sduserroles",
+    "file": "core_system/retrieve-user-roles-by-user-id-role-code-and-created-date.sh"
+  },
+  {
+    "slug": "retrieve-user-roles-by-vuuid",
+    "title": "Retrieve User Roles By VUUID",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "User Roles",
+    "path": "/sys-rest-api/rest/1/sduserroles",
+    "file": "core_system/retrieve-user-roles-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-weight-measures-by-code",
+    "title": "Retrieve a Specific Weight Measures By Code",
+    "module": "Core System",
+    "module_dir": "core_system",
+    "submodule": "Weight Measures",
+    "path": "/sys-rest-api/rest/1/weightmeasure",
+    "file": "core_system/retrieve-a-specific-weight-measures-by-code.sh"
+  },
+  {
+    "slug": "query-an-ap-cheque",
+    "title": "Query an AP Cheque",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apcheque",
+    "file": "financials/query-an-ap-cheque.sh"
+  },
+  {
+    "slug": "retrieve-ap-cheque-by-code",
+    "title": "Query an AP Cheque",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apcheque",
+    "file": "financials/retrieve-ap-cheque-by-code.sh"
+  },
+  {
+    "slug": "retrieve-outstanding-invoice-by-code",
+    "title": "Retrieve  Outstanding Invoice By Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apinvoutstanding",
+    "file": "financials/retrieve-outstanding-invoice-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ap-registered-invoice-by-vuuid",
+    "title": "Retrieve A Specific AP Registered Invoice By VUUID",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apreginv",
+    "file": "financials/retrieve-a-specific-ap-registered-invoice-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ap-registered-invoice-detail-line-by-vuuid",
+    "title": "Retrieve A Specific AP Registered Invoice Detail Line By VUUID",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apreginvdet",
+    "file": "financials/retrieve-a-specific-ap-registered-invoice-detail-line-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-registered-invoice-details-by-vuuid",
+    "title": "Retrieve A Specific Registered Invoice Details by VUUID",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apreginvdetails",
+    "file": "financials/retrieve-a-specific-registered-invoice-details-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-unposted-voucher-by-voucher-number",
+    "title": "Retrieve A Specific Unposted Voucher By Voucher Number",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/unpostedvouchers",
+    "file": "financials/retrieve-a-specific-unposted-voucher-by-voucher-number.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-voucher-by-voucher-number",
+    "title": "Retrieve A Specific Voucher By Voucher Number",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apallvouchers",
+    "file": "financials/retrieve-a-specific-voucher-by-voucher-number.sh"
+  },
+  {
+    "slug": "retrieve-ap-insurance-by-multiple-compliance-types",
+    "title": "Retrieve AP Insurance by Multiple Compliance Types",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apinsurance",
+    "file": "financials/retrieve-ap-insurance-by-multiple-compliance-types.sh"
+  },
+  {
+    "slug": "retrieve-ap-manual-cheque-by-code",
+    "title": "Retrieve AP Manual Cheque by Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/manualcheck",
+    "file": "financials/retrieve-ap-manual-cheque-by-code.sh"
+  },
+  {
+    "slug": "retrieve-ap-open-periods-by-code",
+    "title": "Retrieve AP Open Periods By Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/openperiods",
+    "file": "financials/retrieve-ap-open-periods-by-code.sh"
+  },
+  {
+    "slug": "retrieve-ap-registered-invoices-by-code",
+    "title": "Retrieve AP Registered Invoices By Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apreginv",
+    "file": "financials/retrieve-ap-registered-invoices-by-code.sh"
+  },
+  {
+    "slug": "retrieve-ap-vendor-by-code",
+    "title": "Retrieve AP Vendor by Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apvendor",
+    "file": "financials/retrieve-ap-vendor-by-code.sh"
+  },
+  {
+    "slug": "retrieve-ap-voudist-rollup-by-code",
+    "title": "Retrieve AP Voudist Rollup by Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/voudistphssegmsum",
+    "file": "financials/retrieve-ap-voudist-rollup-by-code.sh"
+  },
+  {
+    "slug": "retrieve-allvouchers-by-code",
+    "title": "Retrieve Allvouchers By Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apallvouchers",
+    "file": "financials/retrieve-allvouchers-by-code.sh"
+  },
+  {
+    "slug": "retrieve-cheque-by-code",
+    "title": "Retrieve Cheque by Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apvouchq",
+    "file": "financials/retrieve-cheque-by-code.sh"
+  },
+  {
+    "slug": "retrieve-registered-invoice-details-by-code",
+    "title": "Retrieve Registered Invoice Details by Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apreginvdetails",
+    "file": "financials/retrieve-registered-invoice-details-by-code.sh"
+  },
+  {
+    "slug": "retrieve-sc-rfp-detail-by-code",
+    "title": "Retrieve SC RFP Detail By Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/scrfpdetail",
+    "file": "financials/retrieve-sc-rfp-detail-by-code.sh"
+  },
+  {
+    "slug": "retrieve-specific-ap-voudist-phs-segm-by-vounum",
+    "title": "Retrieve Specific AP Voudist Phs Segm by VouNum",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/voudistphssegm",
+    "file": "financials/retrieve-specific-ap-voudist-phs-segm-by-vounum.sh"
+  },
+  {
+    "slug": "retrieve-unposted-vouchers-by-code",
+    "title": "Retrieve Unposted Vouchers By Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/unpostedvouchers",
+    "file": "financials/retrieve-unposted-vouchers-by-code.sh"
+  },
+  {
+    "slug": "retrieve-voucher-memos-by-voucher-number",
+    "title": "Retrieve Voucher Memos By Voucher Number",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apvoumemo",
+    "file": "financials/retrieve-voucher-memos-by-voucher-number.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ap-insurance-by-vuuid",
+    "title": "Retrieve a Specific AP Insurance By VUUID",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apinsurance",
+    "file": "financials/retrieve-a-specific-ap-insurance-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ap-outstanding-invoice-by-invoice-voucher-number",
+    "title": "Retrieve a Specific AP Outstanding Invoice By Invoice Voucher Number",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apinvoutstanding",
+    "file": "financials/retrieve-a-specific-ap-outstanding-invoice-by-invoice-voucher-number.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ap-vendor-by-vuuid",
+    "title": "Retrieve a Specific AP Vendor by VUUID",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apvendor",
+    "file": "financials/retrieve-a-specific-ap-vendor-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ap-voucher-by-voucher-number-with-distribution",
+    "title": "Retrieve a Specific AP Voucher By Voucher Number with Distribution",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apvoucher",
+    "file": "financials/retrieve-a-specific-ap-voucher-by-voucher-number-with-distribution.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-invoice-registry-group-by-vuuid",
+    "title": "Retrieve a Specific Invoice Registry Group By VUUID",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/apreggrp",
+    "file": "financials/retrieve-a-specific-invoice-registry-group-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-unique-ap-manual-cheque-by-chq-seq-number",
+    "title": "Retrieve a Unique AP Manual Cheque by Chq Seq Number",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Payable",
+    "path": "/ap-rest-api/rest/1/manualcheck",
+    "file": "financials/retrieve-a-unique-ap-manual-cheque-by-chq-seq-number.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-invoice-payment-by-vuuid",
+    "title": "Retrieve A Specific Invoice Payment By VUUID",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/arinvpay",
+    "file": "financials/retrieve-a-specific-invoice-payment-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-ar-aged-report",
+    "title": "Retrieve AR Aged Report",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/aragedreport",
+    "file": "financials/retrieve-ar-aged-report.sh"
+  },
+  {
+    "slug": "retrieve-ar-customers-by-code",
+    "title": "Retrieve AR Customers by Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/arcustomer",
+    "file": "financials/retrieve-ar-customers-by-code.sh"
+  },
+  {
+    "slug": "retrieve-ar-invoice-memo-log-by-code",
+    "title": "Retrieve AR Invoice Memo Log By Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/arinvmemolog",
+    "file": "financials/retrieve-ar-invoice-memo-log-by-code.sh"
+  },
+  {
+    "slug": "retrieve-ar-outstanding-invoices-by-code",
+    "title": "Retrieve AR Outstanding Invoices By Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/arinvoutstanding",
+    "file": "financials/retrieve-ar-outstanding-invoices-by-code.sh"
+  },
+  {
+    "slug": "retrieve-ar-payments-by-code",
+    "title": "Retrieve AR Payments by Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/arpayment",
+    "file": "financials/retrieve-ar-payments-by-code.sh"
+  },
+  {
+    "slug": "retrieve-ar-tax-items-by-code",
+    "title": "Retrieve AR Tax Items By Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/artaxitems",
+    "file": "financials/retrieve-ar-tax-items-by-code.sh"
+  },
+  {
+    "slug": "retrieve-invoice-payments-by-code",
+    "title": "Retrieve Invoice Payments by Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/arinvpay",
+    "file": "financials/retrieve-invoice-payments-by-code.sh"
+  },
+  {
+    "slug": "retrieve-specific-ar-invoice-by-code",
+    "title": "Retrieve Specific AR Invoice by Code",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/arinvoice",
+    "file": "financials/retrieve-specific-ar-invoice-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ar-customer-by-vuuid",
+    "title": "Retrieve a Specific AR Customer By VUUID",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/arcustomer",
+    "file": "financials/retrieve-a-specific-ar-customer-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ar-invoice-by-vuuid",
+    "title": "Retrieve a Specific AR Invoice By VUUID",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/arinvoice",
+    "file": "financials/retrieve-a-specific-ar-invoice-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-ar-tax-item-by-vuuid",
+    "title": "Retrieve a specific AR Tax Item By VUUID",
+    "module": "Financials",
+    "module_dir": "financials",
+    "submodule": "Accounts Receivable",
+    "path": "/ar-rest-api/rest/1/artaxitems",
+    "file": "financials/retrieve-a-specific-ar-tax-item-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pci-statuses-by-code",
+    "title": "Retrieve PCI Statuses By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "CM Statuses",
+    "path": "/cm-rest-api/rest/1/cmstatus",
+    "file": "project_controls/retrieve-pci-statuses-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pci-status-by-vuuid",
+    "title": "Retrieve a Specific PCI Status By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "CM Statuses",
+    "path": "/cm-rest-api/rest/1/cmstatus",
+    "file": "project_controls/retrieve-a-specific-pci-status-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pci-status-by-vuuid-1",
+    "title": "Retrieve a Specific PCI Status By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "CM Statuses",
+    "path": "/cm-rest-api/rest/1/cmstatus",
+    "file": "project_controls/retrieve-a-specific-pci-status-by-vuuid-1.sh"
+  },
+  {
+    "slug": "retrieve-pci-types-by-code",
+    "title": "Retrieve PCI Types By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "CM Types",
+    "path": "/cm-rest-api/rest/1/cmtype",
+    "file": "project_controls/retrieve-pci-types-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pci-type-by-vuuid",
+    "title": "Retrieve a Specific PCI Type By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "CM Types",
+    "path": "/cm-rest-api/rest/1/cmtype",
+    "file": "project_controls/retrieve-a-specific-pci-type-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pci-type-by-vuuid-1",
+    "title": "Retrieve a Specific PCI Type By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "CM Types",
+    "path": "/cm-rest-api/rest/1/cmtype",
+    "file": "project_controls/retrieve-a-specific-pci-type-by-vuuid-1.sh"
+  },
+  {
+    "slug": "retrieve-pci-change-order-sc-vendor-details-by-code",
+    "title": "Retrieve PCI Change Order SC Vendor Details By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "CM Vendor Details",
+    "path": "/cm-rest-api/rest/1/cmvendordetail",
+    "file": "project_controls/retrieve-pci-change-order-sc-vendor-details-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pci-change-order-sc-vendor-detail-by-vuuid",
+    "title": "Retrieve a Specific PCI Change Order SC Vendor Detail By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "CM Vendor Details",
+    "path": "/cm-rest-api/rest/1/cmvendordetail",
+    "file": "project_controls/retrieve-a-specific-pci-change-order-sc-vendor-detail-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-jb-groups-by-code",
+    "title": "Retrieve JB Groups By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Billing",
+    "path": "/jb-rest-api/rest/1/jbgroup",
+    "file": "project_controls/retrieve-jb-groups-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jb-group-by-vuuid-1",
+    "title": "Retrieve a Specific JB Group By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Billing",
+    "path": "/jb-rest-api/rest/1/jbcont",
+    "file": "project_controls/retrieve-a-specific-jb-group-by-vuuid-1.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jb-group-by-vuuid",
+    "title": "Retrieve a Specific JB Group By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Billing",
+    "path": "/jb-rest-api/rest/1/jbgroup",
+    "file": "project_controls/retrieve-a-specific-jb-group-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-all-jb-contracts-by-code",
+    "title": "Retrieve all JB Contracts By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Billing",
+    "path": "/jb-rest-api/rest/1/jbcont",
+    "file": "project_controls/retrieve-all-jb-contracts-by-code.sh"
+  },
+  {
+    "slug": "retrieve-jc-batches-by-code",
+    "title": "Retrieve JC Batches By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcbatch",
+    "file": "project_controls/retrieve-jc-batches-by-code.sh"
+  },
+  {
+    "slug": "retrieve-jc-combined-job-relations-by-code",
+    "title": "Retrieve JC Combined Job Relations By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcjobcombinedjobrel",
+    "file": "project_controls/retrieve-jc-combined-job-relations-by-code.sh"
+  },
+  {
+    "slug": "retrieve-jc-contract-forecasting-staff-by-code",
+    "title": "Retrieve JC Contract Forecasting Staff By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jccontforecaststaff",
+    "file": "project_controls/retrieve-jc-contract-forecasting-staff-by-code.sh"
+  },
+  {
+    "slug": "retrieve-jc-contract-forecasting-staff-by-vuuid",
+    "title": "Retrieve JC Contract Forecasting Staff By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jccontforecaststaff",
+    "file": "project_controls/retrieve-jc-contract-forecasting-staff-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-jc-contract-forecasting-staff-details-by-vuuid",
+    "title": "Retrieve JC Contract Forecasting Staff Details By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jccontforecaststaffdet",
+    "file": "project_controls/retrieve-jc-contract-forecasting-staff-details-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-jc-cost-complete-details-by-codes",
+    "title": "Retrieve JC Cost Complete Details By Codes",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jccostcompletedetail",
+    "file": "project_controls/retrieve-jc-cost-complete-details-by-codes.sh"
+  },
+  {
+    "slug": "retrieve-jc-cost-to-complete-spreads-by-vuuid",
+    "title": "Retrieve JC Cost To Complete Spreads By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jccosttocompletespread",
+    "file": "project_controls/retrieve-jc-cost-to-complete-spreads-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-jc-cost-to-complete-details-by-code",
+    "title": "Retrieve JC Cost to Complete Details by Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jccontfcostcompdet",
+    "file": "project_controls/retrieve-jc-cost-to-complete-details-by-code.sh"
+  },
+  {
+    "slug": "retrieve-jc-foreign-batch-data-file-by-vuuid",
+    "title": "Retrieve JC Foreign Batch Data File By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcforeignbatchdatafile",
+    "file": "project_controls/retrieve-jc-foreign-batch-data-file-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-jc-job-phases-by-code",
+    "title": "Retrieve JC Job Phases By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcjobcostcodes",
+    "file": "project_controls/retrieve-jc-job-phases-by-code.sh"
+  },
+  {
+    "slug": "retrieve-jc-job-phases-category-codes-by-code",
+    "title": "Retrieve JC Job Phases Category Codes By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcjobcostcatcodes",
+    "file": "project_controls/retrieve-jc-job-phases-category-codes-by-code.sh"
+  },
+  {
+    "slug": "retrieve-jc-jobs-by-code",
+    "title": "Retrieve JC Jobs By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcjob",
+    "file": "project_controls/retrieve-jc-jobs-by-code.sh"
+  },
+  {
+    "slug": "retrieve-jc-transaction-by-code",
+    "title": "Retrieve JC Transaction By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jctran",
+    "file": "project_controls/retrieve-jc-transaction-by-code.sh"
+  },
+  {
+    "slug": "retrieve-jc-wip-report-export",
+    "title": "Retrieve JC WIP Report Export",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcwiprep",
+    "file": "project_controls/retrieve-jc-wip-report-export.sh"
+  },
+  {
+    "slug": "retrieve-job-categories-by-code",
+    "title": "Retrieve Job Categories By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcjobcategory",
+    "file": "project_controls/retrieve-job-categories-by-code.sh"
+  },
+  {
+    "slug": "retrieve-master-categories-by-code",
+    "title": "Retrieve Master Categories By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcmastercategories",
+    "file": "project_controls/retrieve-master-categories-by-code.sh"
+  },
+  {
+    "slug": "retrieve-master-phasescost-codes-by-code",
+    "title": "Retrieve Master Phases/Cost Codes By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcmastercostcodes",
+    "file": "project_controls/retrieve-master-phasescost-codes-by-code.sh"
+  },
+  {
+    "slug": "retrieve-posted-jc-details",
+    "title": "Retrieve Posted JC Details",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcdetailposted",
+    "file": "project_controls/retrieve-posted-jc-details.sh"
+  },
+  {
+    "slug": "retrieve-specific-jc-unit-complete-transaction-by-code",
+    "title": "Retrieve Specific JC Unit Complete Transaction by Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcutran",
+    "file": "project_controls/retrieve-specific-jc-unit-complete-transaction-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jc-combined-job-relation-by-vuuid",
+    "title": "Retrieve a Specific JC Combined Job Relation By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcjobcombinedjobrel",
+    "file": "project_controls/retrieve-a-specific-jc-combined-job-relation-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jc-cost-complete-detail-by-vuuid",
+    "title": "Retrieve a Specific JC Cost Complete Detail By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jccostcompletedetail",
+    "file": "project_controls/retrieve-a-specific-jc-cost-complete-detail-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jc-forecast-archives-by-code",
+    "title": "Retrieve a Specific JC Forecast Archives By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jccontforecastarch",
+    "file": "project_controls/retrieve-a-specific-jc-forecast-archives-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jc-job-phase-by-vuuid-1",
+    "title": "Retrieve a Specific JC Job Phase By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcjobcostcatcodes",
+    "file": "project_controls/retrieve-a-specific-jc-job-phase-by-vuuid-1.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jc-job-phase-by-vuuid",
+    "title": "Retrieve a Specific JC Job Phase By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcjobcostcodes",
+    "file": "project_controls/retrieve-a-specific-jc-job-phase-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jc-unit-complete-transaction-by-vuuid",
+    "title": "Retrieve a Specific JC Unit Complete Transaction By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcutran",
+    "file": "project_controls/retrieve-a-specific-jc-unit-complete-transaction-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-posted-jc-detail-posted-by-vuuid",
+    "title": "Retrieve a Specific Posted JC Detail Posted By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcdetailposted",
+    "file": "project_controls/retrieve-a-specific-posted-jc-detail-posted-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-cost-complete-details-by-vuuid",
+    "title": "Retrieve a specific Cost Complete Details by VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jccontfcostcompdet",
+    "file": "project_controls/retrieve-a-specific-cost-complete-details-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jc-job-batch-by-vuuid",
+    "title": "Retrieve a specific JC Job Batch By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcbatch",
+    "file": "project_controls/retrieve-a-specific-jc-job-batch-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jc-job-by-vuuid",
+    "title": "Retrieve a specific JC Job By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcjob",
+    "file": "project_controls/retrieve-a-specific-jc-job-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jc-job-category-by-vuuid",
+    "title": "Retrieve a specific JC Job Category By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcjobcategory",
+    "file": "project_controls/retrieve-a-specific-jc-job-category-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jc-master-phase-by-vuuid",
+    "title": "Retrieve a specific JC Master Phase By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jcmastercostcodes",
+    "file": "project_controls/retrieve-a-specific-jc-master-phase-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-jc-transaction-by-vuuid",
+    "title": "Retrieve a specific JC Transaction By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Job Cost",
+    "path": "/jc-rest-api/rest/1/jctran",
+    "file": "project_controls/retrieve-a-specific-jc-transaction-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-owner-change-orders-by-code",
+    "title": "Retrieve Owner Change Orders By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Owner Change Orders",
+    "path": "/cm-rest-api/rest/1/cmownerchangeorder",
+    "file": "project_controls/retrieve-owner-change-orders-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-owner-change-order-by-vuuid",
+    "title": "Retrieve a Specific Owner Change Order By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Owner Change Orders",
+    "path": "/cm-rest-api/rest/1/cmownerchangeorder",
+    "file": "project_controls/retrieve-a-specific-owner-change-order-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pci-details-by-code",
+    "title": "Retrieve PCI details By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "PCI Details",
+    "path": "/cm-rest-api/rest/1/cmdetail",
+    "file": "project_controls/retrieve-pci-details-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pci-detail-by-vuuid",
+    "title": "Retrieve a Specific PCI Detail By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "PCI Details",
+    "path": "/cm-rest-api/rest/1/cmdetail",
+    "file": "project_controls/retrieve-a-specific-pci-detail-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pci-masters-by-code",
+    "title": "Retrieve PCI Masters By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "PCI Headers",
+    "path": "/cm-rest-api/rest/1/cmmast",
+    "file": "project_controls/retrieve-pci-masters-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pci-detail-by-vuuid-1",
+    "title": "Retrieve a Specific PCI Detail By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "PCI Headers",
+    "path": "/cm-rest-api/rest/1/cmmast",
+    "file": "project_controls/retrieve-a-specific-pci-detail-by-vuuid-1.sh"
+  },
+  {
+    "slug": "retrieve-pci-rfq-extensions-by-code",
+    "title": "Retrieve PCI RFQ Extensions By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "RFQ (Request for Quote) Extensions",
+    "path": "/cm-rest-api/rest/1/cmrfqextend",
+    "file": "project_controls/retrieve-pci-rfq-extensions-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-rfq-extension-by-vuuid",
+    "title": "Retrieve a Specific RFQ Extension By VUUID",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "RFQ (Request for Quote) Extensions",
+    "path": "/cm-rest-api/rest/1/cmrfqextend",
+    "file": "project_controls/retrieve-a-specific-rfq-extension-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-unposted-pci-details-by-code",
+    "title": "Retrieve Unposted PCI Details By Code",
+    "module": "Project Controls",
+    "module_dir": "project_controls",
+    "submodule": "Unposted PCI Details",
+    "path": "/cm-rest-api/rest/1/cmdetailunposted",
+    "file": "project_controls/retrieve-unposted-pci-details-by-code.sh"
+  },
+  {
+    "slug": "retrieve-pm-communications-by-code",
+    "title": "Retrieve PM Communications By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Communications",
+    "path": "/pm-rest-api/rest/1/pmcomm",
+    "file": "project_management/retrieve-pm-communications-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-communication",
+    "title": "Retrieve a Specific PM Communication",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Communications",
+    "path": "/pm-rest-api/rest/1/pmcomm",
+    "file": "project_management/retrieve-a-specific-pm-communication.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-communication-type",
+    "title": "Retrieve a Specific PM Communication Type",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Communications Types",
+    "path": "/pm-rest-api/rest/1/pmcommtype",
+    "file": "project_management/retrieve-a-specific-pm-communication-type.sh"
+  },
+  {
+    "slug": "retrieve-pm-contact-by-code",
+    "title": "Retrieve PM Contact By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Company Contacts",
+    "path": "/pm-rest-api/rest/1/pmcompcontact",
+    "file": "project_management/retrieve-pm-contact-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-company-contact-by-vuuid",
+    "title": "Retrieve a Specific PM Company Contact By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Company Contacts",
+    "path": "/pm-rest-api/rest/1/pmcompcontact",
+    "file": "project_management/retrieve-a-specific-pm-company-contact-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-contract-type",
+    "title": "Retrieve a Specific PM Contract Type",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Contract Types",
+    "path": "/pm-rest-api/rest/1/pmcontracttype",
+    "file": "project_management/retrieve-a-specific-pm-contract-type.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-bill-details-by-code",
+    "title": "Retrieve PM Daily Journal Bill Details By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Bill Details",
+    "path": "/pm-rest-api/rest/1/pmdailyjourbilldet",
+    "file": "project_management/retrieve-pm-daily-journal-bill-details-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-bill-detail",
+    "title": "Retrieve a Specific PM Daily Journal Bill Detail",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Bill Details",
+    "path": "/pm-rest-api/rest/1/pmdailyjourbilldet",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-bill-detail.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-daily-work-plans-by-code",
+    "title": "Retrieve PM Daily Journal Daily Work Plans By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Daily Work Plans",
+    "path": "/pm-rest-api/rest/1/pmdailyjourdwp",
+    "file": "project_management/retrieve-pm-daily-journal-daily-work-plans-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-daily-work-plan",
+    "title": "Retrieve a Specific PM Daily Journal Daily Work Plan",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Daily Work Plans",
+    "path": "/pm-rest-api/rest/1/pmdailyjourdwp",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-daily-work-plan.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-field-force-by-code",
+    "title": "Retrieve PM Daily Journal Field Force By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Field Forces",
+    "path": "/pm-rest-api/rest/1/pmdailyjourff",
+    "file": "project_management/retrieve-pm-daily-journal-field-force-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-field-force",
+    "title": "Retrieve a Specific PM Daily Journal Field Force",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Field Forces",
+    "path": "/pm-rest-api/rest/1/pmdailyjourff",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-field-force.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-labour-by-code",
+    "title": "Retrieve PM Daily Journal Labour By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Labour",
+    "path": "/pm-rest-api/rest/1/pmdailyjourlab",
+    "file": "project_management/retrieve-pm-daily-journal-labour-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-labour-by-vuuid",
+    "title": "Retrieve a Specific PM Daily Journal Labour By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Labour",
+    "path": "/pm-rest-api/rest/1/pmdailyjourlab",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-labour-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-materials-by-code",
+    "title": "Retrieve PM Daily Journal Materials By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Materials",
+    "path": "/pm-rest-api/rest/1/pmdailyjourmat",
+    "file": "project_management/retrieve-pm-daily-journal-materials-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-material-by-vuuid",
+    "title": "Retrieve a Specific PM Daily Journal Material By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Materials",
+    "path": "/pm-rest-api/rest/1/pmdailyjourmat",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-material-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-owner-equipment-by-code",
+    "title": "Retrieve PM Daily Journal Owner Equipment By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Owner Equipment",
+    "path": "/pm-rest-api/rest/1/pmdailyjouroeqp",
+    "file": "project_management/retrieve-pm-daily-journal-owner-equipment-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-owner-equipment-by-vuuid",
+    "title": "Retrieve a Specific PM Daily Journal Owner Equipment By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Owner Equipment",
+    "path": "/pm-rest-api/rest/1/pmdailyjouroeqp",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-owner-equipment-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-quality-control-by-code",
+    "title": "Retrieve PM Daily Journal Quality Control By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Quality Control",
+    "path": "/pm-rest-api/rest/1/pmdailyjourqc",
+    "file": "project_management/retrieve-pm-daily-journal-quality-control-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-quality-control-by-vuuid",
+    "title": "Retrieve a Specific PM Daily Journal Quality Control By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Quality Control",
+    "path": "/pm-rest-api/rest/1/pmdailyjourqc",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-quality-control-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-tasks-by-code",
+    "title": "Retrieve PM Daily Journal Tasks By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Tasks",
+    "path": "/pm-rest-api/rest/1/pmdailyjourtask",
+    "file": "project_management/retrieve-pm-daily-journal-tasks-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-task-by-vuuid",
+    "title": "Retrieve a Specific PM Daily Journal Task By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Tasks",
+    "path": "/pm-rest-api/rest/1/pmdailyjourtask",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-task-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-trade-equipment-by-code",
+    "title": "Retrieve PM Daily Journal Trade Equipment By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Trade Equipment",
+    "path": "/pm-rest-api/rest/1/pmdailyjourteqp",
+    "file": "project_management/retrieve-pm-daily-journal-trade-equipment-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-trade-equipment-by-vuuid",
+    "title": "Retrieve a Specific PM Daily Journal Trade Equipment By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Trade Equipment",
+    "path": "/pm-rest-api/rest/1/pmdailyjourteqp",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-trade-equipment-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-transactions-by-code",
+    "title": "Retrieve PM Daily Journal Transactions By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Transactions",
+    "path": "/pm-rest-api/rest/1/pmdailyjourtran",
+    "file": "project_management/retrieve-pm-daily-journal-transactions-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-transaction-by-vuuid",
+    "title": "Retrieve a Specific PM Daily Journal Transaction By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Transactions",
+    "path": "/pm-rest-api/rest/1/pmdailyjourtran",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-transaction-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-user-defined-data-by-code",
+    "title": "Retrieve PM Daily Journal User Defined Data By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal User Defined Data",
+    "path": "/pm-rest-api/rest/1/pmdailyjourtran",
+    "file": "project_management/retrieve-pm-daily-journal-user-defined-data-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-user-defined-data-by-vuuid",
+    "title": "Retrieve a Specific PM Daily Journal User Defined Data By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal User Defined Data",
+    "path": "/pm-rest-api/rest/1/pmdailyjourudd",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-user-defined-data-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journal-visitors-by-code",
+    "title": "Retrieve PM Daily Journal  Visitors By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Visitors",
+    "path": "/pm-rest-api/rest/1/pmdailyjourvis",
+    "file": "project_management/retrieve-pm-daily-journal-visitors-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-visitor-by-vuuid",
+    "title": "Retrieve a Specific PM Daily Journal Visitor By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journal Visitors",
+    "path": "/pm-rest-api/rest/1/pmdailyjourvis",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-visitor-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-daily-journals-by-code",
+    "title": "Retrieve PM Daily Journals By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journals",
+    "path": "/pm-rest-api/rest/1/pmdailyjournal",
+    "file": "project_management/retrieve-pm-daily-journals-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-daily-journal-by-vuuid",
+    "title": "Retrieve a Specific PM Daily Journal By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Daily Journals",
+    "path": "/pm-rest-api/rest/1/pmdailyjournal",
+    "file": "project_management/retrieve-a-specific-pm-daily-journal-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-distribution-bcc-by-vuuid",
+    "title": "Retrieve a Specific PM Distribution (BCC) By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Distribution BCC",
+    "path": "/pm-rest-api/rest/1/pmdistbcc",
+    "file": "project_management/retrieve-a-specific-pm-distribution-bcc-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-distribution-cc-by-vuuid",
+    "title": "Retrieve a Specific PM Distribution (CC) By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Distribution CC",
+    "path": "/pm-rest-api/rest/1/pmdistcc",
+    "file": "project_management/retrieve-a-specific-pm-distribution-cc-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-field-work-directive-status-by-vuuid",
+    "title": "Retrieve a Specific PM Field Work Directive Status By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Field Work Directive Statuses",
+    "path": "/pm-rest-api/rest/1/pmfwdstatus",
+    "file": "project_management/retrieve-a-specific-pm-field-work-directive-status-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-field-work-directive-by-vuuid",
+    "title": "Retrieve a Specific PM Field Work Directive By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Field Work Directives",
+    "path": "/pm-rest-api/rest/1/pmfwd",
+    "file": "project_management/retrieve-a-specific-pm-field-work-directive-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-foreign-bid-item-import",
+    "title": "Retrieve a Specific Foreign Bid Item Import",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Foreign Bid Item Imports",
+    "path": "/pm-rest-api/rest/1/foreignbiditemimport",
+    "file": "project_management/retrieve-a-specific-foreign-bid-item-import.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-issue-by-vuuid",
+    "title": "Retrieve a Specific PM Issue By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Issues",
+    "path": "/pm-rest-api/rest/1/pmissue",
+    "file": "project_management/retrieve-a-specific-pm-issue-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-key-players-by-code",
+    "title": "Retrieve PM Key Players By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Key Players",
+    "path": "/pm-rest-api/rest/1/pmkeyplayers",
+    "file": "project_management/retrieve-pm-key-players-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-meeting-attendee-by-vuuid",
+    "title": "Retrieve a Specific PM Meeting Attendee By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Meeting Attendees",
+    "path": "/pm-rest-api/rest/1/pmmeetingattnd",
+    "file": "project_management/retrieve-a-specific-pm-meeting-attendee-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-meeting-item-status-by-vuuid",
+    "title": "Retrieve a Specific PM Meeting Item Status By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Meeting Item Statuses",
+    "path": "/pm-rest-api/rest/1/pmmeetingitemstatus",
+    "file": "project_management/retrieve-a-specific-pm-meeting-item-status-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-meeting-item-by-vuuid",
+    "title": "Retrieve a Specific PM Meeting Item By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Meeting Items",
+    "path": "/pm-rest-api/rest/1/pmmeetingitem",
+    "file": "project_management/retrieve-a-specific-pm-meeting-item-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-meeting-tracks-by-code",
+    "title": "Retrieve PM Meeting Tracks By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Meeting Tracks",
+    "path": "/pm-rest-api/rest/1/pmmeetingtrack",
+    "file": "project_management/retrieve-pm-meeting-tracks-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-meeting-track-by-vuuid",
+    "title": "Retrieve a Specific PM Meeting Track By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Meeting Tracks",
+    "path": "/pm-rest-api/rest/1/pmmeetingtrack",
+    "file": "project_management/retrieve-a-specific-pm-meeting-track-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-meeting-by-vuuid",
+    "title": "Retrieve a Specific PM Meeting By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Meetings",
+    "path": "/pm-rest-api/rest/1/pmmeeting",
+    "file": "project_management/retrieve-a-specific-pm-meeting-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-notes-by-code",
+    "title": "Retrieve PM Notes By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Notes",
+    "path": "/pm-rest-api/rest/1/pmnotes",
+    "file": "project_management/retrieve-pm-notes-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-note-by-vuuid",
+    "title": "Retrieve a Specific PM Note By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Notes",
+    "path": "/pm-rest-api/rest/1/pmnotes",
+    "file": "project_management/retrieve-a-specific-pm-note-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-notice-status-by-vuuid",
+    "title": "Retrieve a Specific PM Notice Status By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Notice Statuses",
+    "path": "/pm-rest-api/rest/1/pmnoticestatus",
+    "file": "project_management/retrieve-a-specific-pm-notice-status-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-notice-by-vuuid",
+    "title": "Retrieve a Specific PM Notice By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Notices",
+    "path": "/pm-rest-api/rest/1/pmnotice",
+    "file": "project_management/retrieve-a-specific-pm-notice-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-pci-real-location-by-vuuid",
+    "title": "Retrieve a Specific PM PCI Real Location By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "PCI Real Locations",
+    "path": "/pm-rest-api/rest/1/pmpcirealloc",
+    "file": "project_management/retrieve-a-specific-pm-pci-real-location-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-project-contacts-by-code",
+    "title": "Retrieve PM Project Contacts By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Project Contacts",
+    "path": "/pm-rest-api/rest/1/pmprojcontact",
+    "file": "project_management/retrieve-pm-project-contacts-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-project-contact-by-vuuid",
+    "title": "Retrieve a Specific PM Project Contact By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Project Contacts",
+    "path": "/pm-rest-api/rest/1/pmprojcontact",
+    "file": "project_management/retrieve-a-specific-pm-project-contact-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-project-item-phase-segment-sums-by-code",
+    "title": "Retrieve PM Project Item Phase Segment Sums By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Project Item Phase Segment Sums",
+    "path": "/pm-rest-api/rest/1/pmprojectitemphssegmsum",
+    "file": "project_management/retrieve-pm-project-item-phase-segment-sums-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-project-item-phase-segment-sum-by-vuuid",
+    "title": "Retrieve a Specific PM Project Item Phase Segment Sum By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Project Item Phase Segment Sums",
+    "path": "/pm-rest-api/rest/1/pmprojectitemphssegmsum",
+    "file": "project_management/retrieve-a-specific-pm-project-item-phase-segment-sum-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-project-items-by-code",
+    "title": "Retrieve PM Project Items By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Project Items",
+    "path": "/pm-rest-api/rest/1/pmprojectitem",
+    "file": "project_management/retrieve-pm-project-items-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-project-item-by-vuuid",
+    "title": "Retrieve a Specific PM Project Item By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Project Items",
+    "path": "/pm-rest-api/rest/1/pmprojectitem",
+    "file": "project_management/retrieve-a-specific-pm-project-item-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-project-partners-by-code",
+    "title": "Retrieve PM Project Partners By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Project Partners",
+    "path": "/pm-rest-api/rest/1/pmprojpartner",
+    "file": "project_management/retrieve-pm-project-partners-by-code.sh"
+  },
+  {
+    "slug": "retrieve-vendor-from-project-partners",
+    "title": "Retrieve Vendor From Project Partners",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Project Partners",
+    "path": "/pm-rest-api/rest/1/pmprojpartner",
+    "file": "project_management/retrieve-vendor-from-project-partners.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-project-partner-by-vuuid",
+    "title": "Retrieve a Specific PM Project Partner By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Project Partners",
+    "path": "/pm-rest-api/rest/1/pmprojpartner",
+    "file": "project_management/retrieve-a-specific-pm-project-partner-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-projects-by-code",
+    "title": "Retrieve PM Projects By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Projects",
+    "path": "/pm-rest-api/rest/1/pmproject",
+    "file": "project_management/retrieve-pm-projects-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-project-by-vuuid",
+    "title": "Retrieve a Specific PM Project By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Projects",
+    "path": "/pm-rest-api/rest/1/pmproject",
+    "file": "project_management/retrieve-a-specific-pm-project-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-punchlist-details-by-code",
+    "title": "Retrieve PM Punchlist Details By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Punchlist Details",
+    "path": "/pm-rest-api/rest/1/pmpunchlistdet",
+    "file": "project_management/retrieve-pm-punchlist-details-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-project-punchlist-detail-by-vuuid",
+    "title": "Retrieve a Specific PM Project Punchlist Detail By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Punchlist Details",
+    "path": "/pm-rest-api/rest/1/pmpunchlistdet",
+    "file": "project_management/retrieve-a-specific-pm-project-punchlist-detail-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-punchlist-statuses-by-code",
+    "title": "Retrieve PM Punchlist Statuses By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Punchlist Statuses",
+    "path": "/pm-rest-api/rest/1/pmpunchliststatus",
+    "file": "project_management/retrieve-pm-punchlist-statuses-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-punchlist-status-by-vuuid",
+    "title": "Retrieve a Specific PM Punchlist Status By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Punchlist Statuses",
+    "path": "/pm-rest-api/rest/1/pmpunchliststatus",
+    "file": "project_management/retrieve-a-specific-pm-punchlist-status-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-punchlists-by-code",
+    "title": "Retrieve PM Punchlists By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Punchlists",
+    "path": "/pm-rest-api/rest/1/pmpunchlist",
+    "file": "project_management/retrieve-pm-punchlists-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-punchlist-by-vuuid",
+    "title": "Retrieve a Specific PM Punchlist By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Punchlists",
+    "path": "/pm-rest-api/rest/1/pmpunchlist",
+    "file": "project_management/retrieve-a-specific-pm-punchlist-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-rfi-statuses-by-code",
+    "title": "Retrieve PM RFI Statuses By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "RFI Statuses",
+    "path": "/pm-rest-api/rest/1/pmrfistatus",
+    "file": "project_management/retrieve-pm-rfi-statuses-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-rfi-status-by-pmrfisstatuscode",
+    "title": "Retrieve a Specific PM RFI Status By PmrfisStatusCode",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "RFI Statuses",
+    "path": "/pm-rest-api/rest/1/pmrfistatus",
+    "file": "project_management/retrieve-a-specific-pm-rfi-status-by-pmrfisstatuscode.sh"
+  },
+  {
+    "slug": "retrieve-pm-rfi-by-code",
+    "title": "Retrieve PM RFI By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "RFIs (Requests for Information)",
+    "path": "/pm-rest-api/rest/1/pmrfi",
+    "file": "project_management/retrieve-pm-rfi-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-rfi-by-vuuid",
+    "title": "Retrieve a Specific PM RFI By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "RFIs (Requests for Information)",
+    "path": "/pm-rest-api/rest/1/pmrfi",
+    "file": "project_management/retrieve-a-specific-pm-rfi-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-self-perform-vendor-by-company-code",
+    "title": "Retrieve Self Perform Vendor By Company Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Self Perform Vendor",
+    "path": "/pm-rest-api/rest/1/selfperformvendor",
+    "file": "project_management/retrieve-self-perform-vendor-by-company-code.sh"
+  },
+  {
+    "slug": "retrieve-sc-headers-by-code",
+    "title": "Retrieve SC Headers By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Subcontract Headers",
+    "path": "/pm-rest-api/rest/1/scmast",
+    "file": "project_management/retrieve-sc-headers-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-sc-header-by-vuuid",
+    "title": "Retrieve a Specific SC Header By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Subcontract Headers",
+    "path": "/pm-rest-api/rest/1/scmast",
+    "file": "project_management/retrieve-a-specific-sc-header-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-subcontract-prequal-partners-by-tax-id",
+    "title": "Retrieve Subcontract Prequal partners by Tax ID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Subcontract Prequal",
+    "path": "/prq-rest-api/rest/1/pmprqbpartners",
+    "file": "project_management/retrieve-subcontract-prequal-partners-by-tax-id.sh"
+  },
+  {
+    "slug": "retrieve-subcontract-prequal-partners-by-vuuid",
+    "title": "Retrieve Subcontract Prequal partners by VUuid",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Subcontract Prequal",
+    "path": "/prq-rest-api/rest/1/pmprqbpartners",
+    "file": "project_management/retrieve-subcontract-prequal-partners-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-sc-details-by-code",
+    "title": "Retrieve SC Details By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Subcontract Schedules",
+    "path": "/pm-rest-api/rest/1/scsched",
+    "file": "project_management/retrieve-sc-details-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-sc-detail-by-vuuid",
+    "title": "Retrieve a Specific SC Detail By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Subcontract Schedules",
+    "path": "/pm-rest-api/rest/1/scsched",
+    "file": "project_management/retrieve-a-specific-sc-detail-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-schedule-phases-by-code",
+    "title": "Retrieve Schedule Phases By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Subcontract Sechedule Phase Segment Sums",
+    "path": "/pm-rest-api/rest/1/scschedphssegsum",
+    "file": "project_management/retrieve-schedule-phases-by-code.sh"
+  },
+  {
+    "slug": "retrieve-pm-submittal-package-details-by-code",
+    "title": "Retrieve PM Submittal Package Details By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Submittal Package Details",
+    "path": "/pm-rest-api/rest/1/pmsbmtpdetail",
+    "file": "project_management/retrieve-pm-submittal-package-details-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-submittal-package-detail-by-vuuid",
+    "title": "Retrieve a Specific PM Submittal Package Detail By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Submittal Package Details",
+    "path": "/pm-rest-api/rest/1/pmsbmtpdetail",
+    "file": "project_management/retrieve-a-specific-pm-submittal-package-detail-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-submittal-package-status-by-vuuid",
+    "title": "Retrieve a Specific PM Submittal Package Status By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Submittal Package Status",
+    "path": "/pm-rest-api/rest/1/pmsubmitpkgstatus",
+    "file": "project_management/retrieve-a-specific-pm-submittal-package-status-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-submittal-packages-by-code",
+    "title": "Retrieve PM Submittal Packages By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Submittal Packages",
+    "path": "/pm-rest-api/rest/1/pmsubmitpkg",
+    "file": "project_management/retrieve-pm-submittal-packages-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-submittal-package-by-vuuid",
+    "title": "Retrieve a Specific PM Submittal Package By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Submittal Packages",
+    "path": "/pm-rest-api/rest/1/pmsubmitpkg",
+    "file": "project_management/retrieve-a-specific-pm-submittal-package-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-pm-submittal-statuses-by-code",
+    "title": "Retrieve PM Submittal Statuses By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Submittal Status",
+    "path": "/pm-rest-api/rest/1/pmsubmittalstatus",
+    "file": "project_management/retrieve-pm-submittal-statuses-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-submittal-status-by-pmsmsstatuscode",
+    "title": "Retrieve a Specific PM Submittal Status By PmsmsStatusCode",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Submittal Status",
+    "path": "/pm-rest-api/rest/1/pmsubmittalstatus",
+    "file": "project_management/retrieve-a-specific-pm-submittal-status-by-pmsmsstatuscode.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-submittal-type-by-pmsmttypecode",
+    "title": "Retrieve a Specific PM Submittal Type By PmsmtTypeCode",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Submittal Types",
+    "path": "/pm-rest-api/rest/1/pmsubmittaltype",
+    "file": "project_management/retrieve-a-specific-pm-submittal-type-by-pmsmttypecode.sh"
+  },
+  {
+    "slug": "retrieve-pm-submittals-by-code",
+    "title": "Retrieve PM Submittals By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Submittals",
+    "path": "/pm-rest-api/rest/1/pmsubmittal",
+    "file": "project_management/retrieve-pm-submittals-by-code.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-submittal-by-vuuid",
+    "title": "Retrieve a Specific PM Submittal By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Submittals",
+    "path": "/pm-rest-api/rest/1/pmsubmittal",
+    "file": "project_management/retrieve-a-specific-pm-submittal-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-transmittal-by-vuuid",
+    "title": "Retrieve a Specific PM Transmittal By VUUID",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "Transmittals",
+    "path": "/pm-rest-api/rest/1/pmtransmittal",
+    "file": "project_management/retrieve-a-specific-pm-transmittal-by-vuuid.sh"
+  },
+  {
+    "slug": "retrieve-a-specific-pm-user-role-by-code",
+    "title": "Retrieve a Specific PM User Role By Code",
+    "module": "Project Management",
+    "module_dir": "project_management",
+    "submodule": "User Roles",
+    "path": "/pm-rest-api/rest/1/pmuserrole",
+    "file": "project_management/retrieve-a-specific-pm-user-role-by-code.sh"
+  }
+]

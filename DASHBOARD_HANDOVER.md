@@ -7,11 +7,15 @@ the same dashboard there.
 
 The dashboard is deliberately small: an Express static server, a single-page
 vanilla-JS frontend, and a Server-Sent-Events stream that pipes test stdout/stderr
-to the browser in real time. Two modes are supported:
+to the browser in real time. Three modes are supported:
 
 - **Mock mode** (`DASHBOARD_MODE=mock`) — discovers `*.sh` / `*.bat` scripts in a
   `mock/` directory and runs them. Useful for demos, dev-loop work, or anywhere
   the real test runner is too heavy. **This is the mode to bring up first.**
+- **CMiC API mode** (`DASHBOARD_MODE=cmic-api`) — reads `bash/endpoints.json` and
+  presents the GET-endpoint scripts under `bash/<module>/*.sh` in a Module →
+  Sub-module → endpoint tree, with search, JSON pretty-printing, and a config
+  banner that calls out missing credentials.
 - **Real mode** (default, or `DASHBOARD_MODE=real`) — shells out to
   `npx playwright test --list` for discovery and `npx playwright test <id>.spec.ts`
   to run. Only relevant if the destination repo also uses Playwright.

@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node dashboard/server.js",
     "mock": "DASHBOARD_MODE=mock node dashboard/server.js",
-    "mock:win": "set DASHBOARD_MODE=mock && node dashboard/server.js"
+    "mock:win": "set DASHBOARD_MODE=mock && node dashboard/server.js",
+    "cmic-api": "DASHBOARD_MODE=cmic-api node dashboard/server.js",
+    "cmic-api:win": "set DASHBOARD_MODE=cmic-api && node dashboard/server.js"
   },
   "keywords": [],
   "author": "",

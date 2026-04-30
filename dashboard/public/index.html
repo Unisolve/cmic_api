@@ -25,11 +25,20 @@
       </div>
     </header>
 
+    <div class="config-banner hidden" id="configBanner">
+      <span class="banner-icon">!</span>
+      <span class="banner-text" id="configBannerText"></span>
+    </div>
+
     <div class="main">
       <aside class="sidebar">
         <div class="sidebar-header">
           <span class="sidebar-label">TEST SUITE</span>
           <button class="refresh-btn" id="refreshBtn" title="Refresh test list">↺</button>
+        </div>
+        <div class="sidebar-search hidden" id="sidebarSearch">
+          <input type="search" id="searchInput" placeholder="Search endpoints…" autocomplete="off" />
+          <span class="search-count" id="searchCount"></span>
         </div>
         <div class="test-list" id="testList">
           <div class="loading-state">
@@ -52,6 +61,7 @@
               <span class="panel-project" id="panelProject"></span>
               <h2 class="panel-title" id="panelTitle"></h2>
               <span class="panel-file" id="panelFile"></span>
+              <span class="panel-path hidden" id="panelPath"></span>
             </div>
             <div class="panel-controls">
               <div class="status-indicator" id="statusIndicator">
